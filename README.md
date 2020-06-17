@@ -5,7 +5,7 @@
 
 UTA-VIRT-FSF-PT-01-2020-U-LOL&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Homework #19&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Ashley Allphin
 
-![clicky-game-banner](src/assets/images/Banenr-ReactClickyGame.png)
+![clicky-game-banner](src/assets/images/Banner-ReactClickyGame.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
@@ -18,11 +18,12 @@ A dozen Mighty Boosh characters are rendered to the page.  Click on each charact
 
 ## Functionality
 
-#### Character Card props are rendered to the page.  Each click is recorded and shuffles the positions of the cards.
+![clicky-game-demo](src/assets/images/Demo-ReactClickyGame.gif)
 
-#### Selecting a new character increments the user's score by 1.
-
-#### Clicking on a previously selected character twice resets the user's score to 0.
+- Character Card props are rendered to the page.  Each click is recorded and initiates shuffling of card positions.
+- Selecting a new character increments the user's score by 1.
+- Clicking on a previously selected character resets the user's score to 0 and starts a new game.
+- Clicking on all twelve cards without repeating will result in a win message and set the highest score to 12.
 
 ## Resources
 * [React](https://reactjs.org/)
@@ -49,9 +50,9 @@ To run on localhost PORT 3000:
 <hr>
 <hr>
 
-### Left to Do
+### Plans for Future Development
 - Finalize styling
-- Add modal when game is won (maybe)
-- Add shake class when game is lost
+- Add modal when game is won
+- Add shake animation to cards to alert user when game is lost
 
 

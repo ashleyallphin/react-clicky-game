@@ -9,7 +9,7 @@ const Footer = () => (
         className="footer">
         <a
         className="footer-image"
-        href="https://github.com/ashleyallphin/clicky-game"
+        href="https://github.com/ashleyallphin/react-clicky-game"
         target="_blank"
         rel="noopener noreferrer"
         cursor="pointer"
