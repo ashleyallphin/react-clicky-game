@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Footer.css";
-import logo from "../../assets/images/github-logo.svg"
+// import logo from "../../assets/images/github-logo.svg"
 
 
 const Footer = () => (
     
     <div
         className="footer">
-        <a
+        {/* <a
         className="footer-image"
         href="https://github.com/ashleyallphin/react-clicky-game"
         target="_blank"
@@ -18,7 +18,7 @@ const Footer = () => (
         alt="Github Logo"
         src={logo}
         />
-        </a>
+        </a> */}
 
     </div>
 );
