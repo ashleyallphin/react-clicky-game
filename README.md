@@ -22,7 +22,7 @@ A dozen Mighty Boosh characters are rendered to the page.  Click on each charact
 
 #### Selecting a new character increments the user's score by 1.
 
-#### Selecting the same character twice resets the user's score to 0.
+#### Clicking on a previously selected character twice resets the user's score to 0.
 
 ## Installation
 To clone this repository:
