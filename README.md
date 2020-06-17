@@ -7,5 +7,5 @@ UTA-VIRT-FSF-PT-01-2020-U-LOL&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Homework #19&n
 
 ![clicky-game-banner](src/assets/images/Banenr-ReactClickyGame.png)
 
-This product was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
