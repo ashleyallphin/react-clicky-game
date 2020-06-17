@@ -1,0 +1,39 @@
+.Navbar {
+    background-color: #000 !important;
+    height: 70px;
+    font-size: .5rem !important;
+    font-family: 'Manrope Extra Bold', sans-serif;
+    font-weight: 800;
+    color: #fff !important;
+    padding: 0 0 0 15px !important;
+    border-bottom: 5px #d5d5d5 solid;
+    flex-shrink: 0;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+    height: 2.5rem;
+    width: auto;
+    animation: rotation 9s infinite linear;
+}
+
+.navbar-brand {
+    font-size: 1.25rem;
+    max-width: 100%;
+    max-width: 50vw;
+}
+
+@keyframes rotation {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(359deg);
+}
+}
+
+@media (max-width: 400) {
+    .navbar-brand {
+        font-size: .75rem !important;
+    }
+}

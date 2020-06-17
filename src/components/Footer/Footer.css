@@ -1,0 +1,10 @@
+.footer {
+    background-color: #000 !important;
+    text-align: center;
+    border-top: 5px rgb(213, 213, 213) solid;
+    padding: 1.5rem;
+}
+
+.footer img {
+    height: 2rem;;
+}
