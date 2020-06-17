@@ -1,7 +1,7 @@
 **React Clicky Game**
 ======
 
-
+> ### Deployed to GitHub Pages [here](https://ashleyallphin.github.io/react-clicky-game/).
 
 UTA-VIRT-FSF-PT-01-2020-U-LOL&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Homework #19&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Ashley Allphin
 
