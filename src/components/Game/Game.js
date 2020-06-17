@@ -11,6 +11,7 @@ class Game extends Component {
 	
 	// initial state
 	state = {
+		winTotal: this.props.length,
 		characters: characters,
 		name: characters.name,
 		message: "Click a character to begin!",
@@ -18,7 +19,7 @@ class Game extends Component {
 		score: 0,
 		highestScore: 0,
 	};
-	
+
 	// what to show on the page
 	render() {
 		return (
@@ -68,24 +69,55 @@ class Game extends Component {
 
 	// game logic (handleClicked function = states for clicking on cards)
 	handleClicked = (id, clicked, name) => {
-
+		
 		const cardLocation = this.state.characters;
+		const winTotal = this.state.characters.length;
+		const score = this.state.score +1 ;
+
+		console.log ("score: " + score + "\nwinTotal :" + winTotal);
 
 		// if a card is clicked that has already been clicked, return this state:
-		if (clicked) {
-				cardLocation.forEach((image, index) => {
+		
+		if
+
+			( score  === winTotal ) { 
+
+			const { highestScore, score } = this.state;
+			// increase score by one
+			const newScore = score + 1;
+			//if new score is greater than highest score, make the highest score the new socre (called newHighestScore)
+			const newHighestScore = newScore > highestScore ? newScore : highestScore;
+			cardLocation.forEach((image, index) => {
 				cardLocation[index].clicked = false;
 			});
 			return this.setState({
 				// alert with these messages:
-				message: `You already picked ${name}`,
-				submessage: "Click another character to begin again.",
+				message: `You won!`,
+				submessage: "Click a character to play again.",
 				// shuffle the cards
 				image: cardLocation.sort(() => Math.random() - 0.5),
 				// reset score to 0
+				// add one to the score
 				score: 0,
+				// set the newHighestScore
+				highestScore: winTotal,
+				// set all cards to clicked = false
 			})
-		}
+
+		} else if (clicked) {
+			cardLocation.forEach((image, index) => {
+			cardLocation[index].clicked = false;
+		});
+		return this.setState({
+			// alert with these messages:
+			message: `You already picked ${name}`,
+			submessage: "Click another character to begin again.",
+			// shuffle the cards
+			image: cardLocation.sort(() => Math.random() - 0.5),
+			// reset score to 0
+			score: 0,
+		})
+		}	
 		//otherwise, return this state:
 		else {
 			cardLocation.forEach((image, index) => {

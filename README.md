@@ -24,6 +24,14 @@ A dozen Mighty Boosh characters are rendered to the page.  Click on each charact
 
 #### Clicking on a previously selected character twice resets the user's score to 0.
 
+## Resources
+* [React](https://reactjs.org/)
+* [JSX](https://reactjs.org/docs/introducing-jsx.html)
+* [JavaScript/ES6](http://es6-features.org/#Constants)
+* [Node dependencies](https://nodejs.org/en/), [Yarn Package Manager](https://yarnpkg.com/)
+* [React Bootsrap](https://react-bootstrap.github.io/)
+* VS Code, Adobe Photoshop, Adobe Illustrator
+
 ## Installation
 To clone this repository:
 
@@ -42,7 +50,8 @@ To run on localhost PORT 3000:
 <hr>
 
 ### Left to Do
-- Add win message
-- Finalize Styling
-- Add screenshots to readme
+- Finalize styling
+- Add modal when game is won (maybe)
+- Add shake class when game is lost
+
 
