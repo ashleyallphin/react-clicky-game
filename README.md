@@ -52,7 +52,7 @@ To run on localhost PORT 3000:
 
 ### Plans for Future Development
 - Finalize styling
-- Add modal when game is won
+- Add modal when game is won (maybe)
 - Add shake animation to cards to alert user when game is lost
 
 
